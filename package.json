@@ -1,0 +1,18 @@
+{
+  "name": "fgts-playwright-automation",
+  "version": "1.0.0",
+  "description": "Automação Playwright para abrir o portal FGTS Digital e aguardar.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build:exe": "pkg index.js --targets node18-win-x64 --output fgts-automacao.exe"
+  },
+  "dependencies": {
+    "playwright-core": "^1.47.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nexe": "^5.0.0-beta.4",
+    "pkg": "^5.8.1"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+*.exe
+package-lock.json
+*.xlsx
+*.py
